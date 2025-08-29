@@ -1,47 +1,76 @@
 /*Global */
 * {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;  
   color: #404040;
+  font-size:1.6rem;
+  line-height:1.4;
+}
+
+html{
+  font-size:62.5%
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 
 p {
-  font-size: 19px;
+  font-size: 1.9rem;
 }
 
 h2{
   font-weight: 400;
-  font-size:35px;
+  font-size:3.5rem;
 }
 
 botao{
-  font-size:24px;
+  font-size:2.4rem;
   font-weight: 700;
   text-decoration: none;
+}
+strong{
+  font-weight:600;
 }
 
 .realce-semibold{
   font-weight: 600;
 }
 
+
 /* Cabeçalho*/
 
 .item-lista-cabecalho a{
   color:#112e61;
-  font-size:14px;
+  font-size:1.4rem;
   text-transform: uppercase;
   text-decoration:none;
   font-weight: 600;
+
+}
+
+nav ul{
+  text-decoration: none;
+
+}
+
+.item-lista-cabecalho a:hover,
+.item-lista-cabecalho a:active{
+ color: #f60;
+}
+
+.cabecalho{
+  padding:1.6rem 3.12rem;
+  box-shadow: 0 0.21rem 0.4rem rgba(0,0,0,0.1)
 }
 
 /* Seção Hero*/
 
 .hero-pagrafo{
-  font-size:19px;
+  font-size:1.9rem;
 }
 
 /* Conteúdos gratuitos*/
@@ -52,25 +81,25 @@ botao{
 }
 
 .gratuito-h3{
-  font-size:23px;
+  font-size:2.3;
   font-weight: 700;
 }
 
 .gratuio-item-lista,
 .gratuito-link-lista{
-  font-size:19px;
+  font-size:1.9rem;
   text-decoration: none;
 }
 
 /* Seção diferenciais*/
 
 .diferenciais-p {
-  font-size: 19px;
+  font-size: 1.9rem;
 }
 
 .diferenciais-h3{
   color:#005e88;
-  font-size:24px;
+  font-size:2.4rem;
   font-weight: 600;
 }
 
@@ -84,7 +113,7 @@ botao{
 
 /* Seção blog */
 .blog-postadoem{
-  font-size:15pz;
+  font-size:1.5rem;
 }
 
 .blog-postadoem{
@@ -94,19 +123,19 @@ botao{
 }
 
 .blog-titulopost{
-  font-size:24px;
+  font-size:2.4rem;
   font-weight: 600;
   text-decoration:none;
 }
 
 .blog-descricaopost{
-  font-size:17px;
+  font-size:1.7rem;
 }
 /* Seção como ajudar */
 .comoajudar-realce,
 .comoajudar-paragrafo
 {
-font-size:19px;
+font-size:1.9rem;
 }
 
 .comoajudar-lista a,
@@ -122,17 +151,17 @@ font-size:19px;
 /* Seção rodapé */
 .rodape-titulo{
   font-weight: 600;
-  font-size:22px;
+  font-size:2.2rem;
 }
 
 .rodape-subtitulo{
-  font-size:20px;
+  font-size:2.0rem;
   font-weight: 500;
 }
 
 .rodape-seg-subtitulo{
   font-weight: 500;
-  font-size:18px;
+  font-size:1.8rem;
 }
 .rodape-link{
   color:#1a77a4
