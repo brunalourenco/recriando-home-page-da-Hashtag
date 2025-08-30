@@ -3,4 +3,4 @@
 Material desenvolvido no curso da Hashtag Treinamentos Utilizando HTML e CSS.
 
 Link do página
-https://brunalourenco.github.io/recriando-home-page-da-Hashtag/
+https://brunalourenco.github.io/recriando-pagina-inicial-da-Hashtag/
